@@ -1,4 +1,4 @@
-package Archive.math;
+package math;
 
 public class RelationenGenerator {
     public static void main(String[] args) {

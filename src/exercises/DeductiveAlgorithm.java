@@ -1,4 +1,4 @@
-package Archive.exercises;
+package exercises;
 
 public class DeductiveAlgorithm {
     static int getXFromY(int y) {

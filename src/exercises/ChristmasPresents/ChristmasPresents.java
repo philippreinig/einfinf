@@ -1,4 +1,4 @@
-package Archive.exercises.ChristmasPresents;
+package exercises.ChristmasPresents;
 
 public class ChristmasPresents {
     static final double price = 2.7;

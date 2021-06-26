@@ -1,4 +1,4 @@
-package Klausur;
+package exam;
 
 public class Test {
     public static int find(int x, int[] a) {

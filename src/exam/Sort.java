@@ -1,4 +1,4 @@
-package Klausur;
+package exam;
 
 import java.util.Arrays;
 

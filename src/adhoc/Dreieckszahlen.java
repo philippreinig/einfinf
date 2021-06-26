@@ -1,4 +1,4 @@
-package Archive.Adhoc;
+package adhoc;
 
 public class Dreieckszahlen {
 

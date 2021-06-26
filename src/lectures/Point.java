@@ -1,4 +1,4 @@
-package Archive.Vorlesung;
+package lectures;
 
 class Point {
     double x = 0;

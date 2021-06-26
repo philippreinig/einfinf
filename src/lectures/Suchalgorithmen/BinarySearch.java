@@ -1,4 +1,4 @@
-package Archive.Vorlesung.Suchalgorithmen;
+package lectures.Suchalgorithmen;
 
 public class BinarySearch {
     static int findBinRec(int[] array, int x) {

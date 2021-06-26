@@ -1,4 +1,4 @@
-package Archive.exercises.ChristmasPresents;
+package exercises.ChristmasPresents;
 
 public class Cylinder extends Present {
     private double height = 1; // in meters

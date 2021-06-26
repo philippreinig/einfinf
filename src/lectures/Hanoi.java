@@ -1,4 +1,4 @@
-package Archive.Vorlesung;
+package lectures;
 
 public class Hanoi {
     static int counter = 0;

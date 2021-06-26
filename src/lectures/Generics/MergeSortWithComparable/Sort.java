@@ -1,4 +1,4 @@
-package Archive.Vorlesung.Generics.MergeSortWithComparable;
+package lectures.Generics.MergeSortWithComparable;
 
 public class Sort {
     public static void sort(Comparable[] a) {

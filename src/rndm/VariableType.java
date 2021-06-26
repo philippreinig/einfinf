@@ -1,4 +1,4 @@
-package Archive.rndm;
+package rndm;
 
 public class VariableType {
     //Testing type of a variable

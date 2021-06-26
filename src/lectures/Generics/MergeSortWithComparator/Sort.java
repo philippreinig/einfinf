@@ -1,4 +1,4 @@
-package Archive.Vorlesung.Generics.MergeSortWithComparator;
+package lectures.Generics.MergeSortWithComparator;
 
 import java.util.Arrays;
 import java.util.Comparator;

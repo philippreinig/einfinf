@@ -1,4 +1,4 @@
-package Archive.Klausurvorbereitung;
+package exampreparation;
 
 import java.util.Arrays;
 import java.util.Random;

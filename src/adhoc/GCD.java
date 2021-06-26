@@ -1,4 +1,4 @@
-package Archive.Adhoc;
+package adhoc;
 
 public class GCD {
     public static final int UNDEF = 0;

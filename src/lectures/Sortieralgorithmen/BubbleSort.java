@@ -1,4 +1,4 @@
-package Archive.Vorlesung.Sortieralgorithmen;
+package lectures.Sortieralgorithmen;
 
 import java.util.Arrays;
 

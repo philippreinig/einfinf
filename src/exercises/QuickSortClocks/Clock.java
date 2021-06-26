@@ -1,4 +1,4 @@
-package Archive.exercises.QuickSortClocks;
+package exercises.QuickSortClocks;
 
 public class Clock implements Comparable<Clock> {
     private final int h; // Stunden (0-23)

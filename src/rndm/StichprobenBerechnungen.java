@@ -1,4 +1,4 @@
-package Archive.rndm;
+package rndm;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class StichprobenBerechnungen {
         return sum / array.length;
     }
 
-public static double spv(int[] values) {                    //Stichprobenvarianz
+    public static double spv(int[] values) {                    //Stichprobenvarianz
 
         double aMittel = aMittel(values);
         double sum = 0;
@@ -43,8 +43,8 @@ public static double spv(int[] values) {                    //Stichprobenvarianz
 
     }
 
-    static public double pkk (double spsaw1, double spsaw2, double skv1){           //Pearsonskorrelationskoeffizient
-        return skv1/(spsaw1*spsaw2);
+    static public double pkk(double spsaw1, double spsaw2, double skv1) {           //Pearsonskorrelationskoeffizient
+        return skv1 / (spsaw1 * spsaw2);
 
     }
 
@@ -54,14 +54,14 @@ public static double spv(int[] values) {                    //Stichprobenvarianz
         double spv1 = spv(values1);                                                 //Stichprobenvarianz 1
         double spsaw1 = spsaw(spv1);                                                //Stichprobenstandardabweichung 1
 
-        double spv2= spv(values2);                                                  //Stichprobenvarianz 2
+        double spv2 = spv(values2);                                                  //Stichprobenvarianz 2
         double spsaw2 = spsaw(spv2);                                                //Stichprobenstandardabweichung 2
 
         double skv = skv(values1, values2);                                         //Stichprobenkovarianz
         double pkk = pkk(spsaw1, spsaw2, skv);                                      //Pearsonskorrelationskoeffizient
 
-        double bstern = skv/spv1;
-        double astern = aMittel(values2)-bstern*aMittel(values1);
+        double bstern = skv / spv1;
+        double astern = aMittel(values2) - bstern * aMittel(values1);
 
         System.out.println("spv: Stichprobenvarianz / spsaw: Stichprobenstandardabweichung / skv: Stichprobenkovarianz / pkk: Pearsonskorrelationskoeffizient ");
 
@@ -84,8 +84,6 @@ public static double spv(int[] values) {                    //Stichprobenvarianz
 
         System.out.println("b* ist " + bstern);
         System.out.println("a* ist " + astern);
-
-
 
 
     }

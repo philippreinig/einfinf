@@ -1,4 +1,4 @@
-package Archive.math;
+package math;
 
 public class Aufgabe65 {
     public static int result(int e, int x) {

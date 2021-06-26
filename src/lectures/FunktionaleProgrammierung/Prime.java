@@ -1,6 +1,6 @@
-package Archive.Vorlesung.FunktionaleProgrammierung;
+package lectures.FunktionaleProgrammierung;
 
-import static Archive.Vorlesung.FunktionaleProgrammierung.BasicArithmetic.succ;
+import static lectures.FunktionaleProgrammierung.BasicArithmetic.succ;
 
 public class Prime {
     static int counter = 0;

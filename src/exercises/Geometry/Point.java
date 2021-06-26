@@ -1,4 +1,4 @@
-package Archive.exercises.Geometry;
+package exercises.Geometry;
 
 public class Point {
     private int x;

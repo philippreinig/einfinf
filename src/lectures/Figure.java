@@ -1,4 +1,4 @@
-package Archive.Vorlesung;
+package lectures;
 
 abstract class Figure {
     public abstract double area();

@@ -1,4 +1,4 @@
-package Archive.Adhoc.Polymorphie;
+package adhoc.Polymorphie;
 
 public class Polymorphie {
     public static void main(String[] args) {

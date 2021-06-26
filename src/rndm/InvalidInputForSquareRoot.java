@@ -1,8 +1,8 @@
-package Archive.rndm;
+package rndm;
 
-public class InvalidInputForSquareRoot extends Exception{
+public class InvalidInputForSquareRoot extends Exception {
 
-    public InvalidInputForSquareRoot(String errMessage){
+    public InvalidInputForSquareRoot(String errMessage) {
         super(errMessage);
     }
 }

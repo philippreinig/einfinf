@@ -1,4 +1,4 @@
-package Archive.exercises.ChristmasPresents;
+package exercises.ChristmasPresents;
 
 public abstract class Present {
     static int counter = 0;

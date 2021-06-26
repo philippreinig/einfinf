@@ -1,4 +1,4 @@
-package Archive.Vorlesung.FunktionaleProgrammierung;
+package lectures.FunktionaleProgrammierung;
 
 public class Factorial {
     static int factorial(int x) {

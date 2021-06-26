@@ -1,4 +1,4 @@
-package Archive.exercises.ChristmasPresents;
+package exercises.ChristmasPresents;
 
 public class Cuboid extends Present {
     private double length = 1; // in meters

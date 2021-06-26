@@ -1,4 +1,4 @@
-package Archive.exercises.QuickSortClocks;
+package exercises.QuickSortClocks;
 
 import java.util.Arrays;
 import java.util.Random;

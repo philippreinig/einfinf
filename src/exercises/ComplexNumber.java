@@ -1,12 +1,13 @@
-package Current.Übungen;
+package exercises;
 
 public class ComplexNumber {
 
     private class InvalidInputForSquareRoot extends RuntimeException {
-        public InvalidInputForSquareRoot(String errMessage){
+        public InvalidInputForSquareRoot(String errMessage) {
             super(errMessage);
         }
     }
+
     public static double real;
     public static double imag;
 
@@ -35,7 +36,7 @@ public class ComplexNumber {
         return this;
     }
 
-    public double absoluteValue(){
+    public double absoluteValue() {
         return Math.sqrt(Math.pow(this.get_real(), 2)) + Math.sqrt(Math.pow(this.get_imag(), 2));
     }
 

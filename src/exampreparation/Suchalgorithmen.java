@@ -1,4 +1,4 @@
-package Archive.Klausurvorbereitung;
+package exampreparation;
 
 public class Suchalgorithmen {
     private static final int UNDEF = -1;
@@ -32,7 +32,7 @@ public class Suchalgorithmen {
         return testArray;
     }
 
-    private static int bineaereSucheIter(int[] a, int x) {
+    private static int binaereSucheIter(int[] a, int x) {
         int left = 0;
         int right = a.length - 1;
         while (left < right) {
@@ -50,6 +50,6 @@ public class Suchalgorithmen {
         int numToFind = 37;
         System.out.println("lin: " + lineareSuche(testArray, numToFind));
         System.out.println("binRek: " + binaereSucheRek(testArray, numToFind));
-        System.out.println("binIter: " + bineaereSucheIter(testArray, numToFind));
+        System.out.println("binIter: " + binaereSucheIter(testArray, numToFind));
     }
 }

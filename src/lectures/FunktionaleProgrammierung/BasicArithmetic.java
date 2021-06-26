@@ -1,4 +1,4 @@
-package Archive.Vorlesung.FunktionaleProgrammierung;
+package lectures.FunktionaleProgrammierung;
 
 public class BasicArithmetic {
 

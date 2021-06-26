@@ -1,4 +1,4 @@
-package Klausur;
+package exam;
 
 public class Count {
     // h is a field of heights

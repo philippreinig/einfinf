@@ -1,4 +1,4 @@
-package Archive.exercises.Geometry;
+package exercises.Geometry;
 
 class Geometry {
     public static final String ANSI_RESET = "\u001B[0m";

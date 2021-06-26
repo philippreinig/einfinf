@@ -1,4 +1,4 @@
-package Archive.Tutorium;
+package tutorium;
 
 public class Percolation {
 

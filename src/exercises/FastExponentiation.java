@@ -1,4 +1,4 @@
-package Archive.exercises;
+package exercises;
 
 /********************************************************
  1) Ausgabe der Funktion fastPotRek für x=2 und n=13 ist 8192.0, für diese Zahlenwerte also korrekt.

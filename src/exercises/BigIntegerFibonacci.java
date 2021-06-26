@@ -1,4 +1,4 @@
-package Archive.exercises;
+package exercises;
 
 /*
  Fibonaccizahl Nr. 1: 1, Anzahl der benötigten Durchgänge der Methode zur Berechnung: 1

@@ -1,4 +1,4 @@
-package Archive.math;
+package math;
 
 public class RecursionMath1 {
 

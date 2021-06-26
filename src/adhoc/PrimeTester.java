@@ -1,4 +1,4 @@
-package Archive.Adhoc;
+package adhoc;
 
 public class PrimeTester {
     public static void main(String[] args) {

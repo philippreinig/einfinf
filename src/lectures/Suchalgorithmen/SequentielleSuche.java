@@ -1,4 +1,4 @@
-package Archive.Vorlesung.Suchalgorithmen;
+package lectures.Suchalgorithmen;
 
 public class SequentielleSuche {
 

@@ -1,4 +1,4 @@
-package Archive.Vorlesung;
+package lectures;
 
 public class ggT {
     public static void main(String[] args) {

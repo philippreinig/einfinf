@@ -1,4 +1,4 @@
-package Archive.exercises;
+package exercises;
 
 abstract class Animal {
     public abstract void move(String s);

@@ -1,4 +1,4 @@
-package Archive.exercises.ChristmasPresents;
+package exercises.ChristmasPresents;
 
 public class Ball extends Present {
     private double radius = 1; // in meters

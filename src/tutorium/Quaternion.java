@@ -1,4 +1,4 @@
-package Archive.Tutorium;
+package tutorium;
 
 public class Quaternion {
     //Values to describe a quaternion

@@ -1,4 +1,4 @@
-package Klausur;
+package exam;
 
 class Search {
     static int count = 0;

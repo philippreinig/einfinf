@@ -1,4 +1,4 @@
-package Klausur;
+package exam;
 
 //Ein int Array stellt eine Referenz auf Daten, nicht diese selbst dar. Es wurde in der Methode clone() die Referenz auf das rgb Array der Instanz white übergeben und deshalb
 // in der Methode darker() verändert. Es sollte in der Methode clone() der andere Konstruktor verwendet werden, dem die gleichen Daten, aber nicht die Referenz auf die Daten übergeben wird.

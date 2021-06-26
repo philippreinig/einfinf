@@ -1,4 +1,4 @@
-package Archive.Tutorium;
+package tutorium;
 
 import java.util.Arrays;
 

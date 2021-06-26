@@ -1,4 +1,4 @@
-package Archive.exercises;
+package exercises;
 
 public class RationalNumber implements Comparable<RationalNumber> {
     //Numerator and Denominator of a rational number

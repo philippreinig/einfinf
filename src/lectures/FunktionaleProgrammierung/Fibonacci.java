@@ -1,4 +1,4 @@
-package Archive.Vorlesung.FunktionaleProgrammierung;
+package lectures.FunktionaleProgrammierung;
 
 public class Fibonacci {
     static int counterRec = 0;

@@ -1,4 +1,4 @@
-package Current.Tutorien;
+package tutorium;
 
 import java.util.Random;
 
@@ -46,10 +46,10 @@ public class MergeSortWithInsertionSort {
         for (int i = 0; i < na; ++i) a[i] = c[i];
         int[] b = new int[nb];
         for (int j = 0; j < nb; ++j) b[j] = c[j + na];
-        if (a.length > 1){
+        if (a.length > 1) {
             mergesort(a); // recursive
         }
-        if (b.length > 1){
+        if (b.length > 1) {
             mergesort(b); // sort
         }
         merge(a, b, c); // merge
@@ -153,7 +153,7 @@ public class MergeSortWithInsertionSort {
         int cpMax = 30;
         int cpMin = 18;
         for (int i = cpMin; i <= cpMax; i++) {
-            System.out.println("combinedSort - changeParameter "  + i  + ": " + testCombinedSort(arrayLength, testAmount, i));
+            System.out.println("combinedSort - changeParameter " + i + ": " + testCombinedSort(arrayLength, testAmount, i));
             //System.out.println("insertionSort: " + testInsertionSort(arrayLength, testAmount));
             System.out.println("mergeSort: " + testMergeSort(arrayLength, testAmount));
         }
